@@ -120,3 +120,63 @@
   width: 10rem;
   padding-block: 2.2rem;
 }
+
+/* ------------------------------------------- */
+
+#projetos .conteiner {
+  background-color: var(--royal-blue);
+  margin: 0 auto;
+  max-width: 90rem;
+  min-width: 64rem;
+  border-bottom: 0.0625rem solid black;
+}
+
+#projetos h2 {
+  padding-block-start: 0.625rem;
+  font-size: 2rem;
+  color: white;
+  text-align: center;
+}
+
+#projetos .quadro {
+  margin-block: 1rem;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#projetos .quadro .imagem {
+  border: 0.625rem solid black;
+}
+
+#projetos .quadro img {
+  max-width: 100%;
+  width: 20rem;
+}
+
+/* ----------------------------------------------- */
+
+footer .conteiner {
+  background-color: white;
+  margin: 0 auto;
+  max-width: 90rem;
+  min-width: 64rem;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+footer p {
+  font-size: 1.5rem;
+  color: var(--royal-blue);
+  padding: 1rem;
+  font-weight: bold;
+}
+
+/* ------------------------------------------ */
+
+#menu, #sobre, #projetos {
+  background-color: var(--royal-blue);
+}
