@@ -10,47 +10,79 @@
   margin: 0;
 }
 
-.menu-conteiner {
-  background-color: var(--scarlet);
-  width: 64rem;
-  height: 5vh;
-  margin-inline: auto;
-  border-bottom: 0.0625rem solid var(--licorice);
+#menu {
+  background-color: var(--ghost-white);
 }
 
-.inicio-conteiner {
-  background-color: var(--scarlet);
-  width: 64rem;
-  height: 95vh;
-  padding-block-start: 30vh;
-  margin-inline: auto;
+#menu .conteiner {
+  background-color: var(--licorice);
+  /* border: 0.0625rem solid black; */
+  max-width: 90rem;
+  height: 10vh;
+  margin: 0 auto;
   display: flex;
-  align-items: flex-start;
   justify-content: center;
 }
 
-.inicio-conteiner .cartao-esquerdo,
-.inicio-conteiner .cartao-direito {
-  width: 24rem;
-  height: 30vh;
-  border-style: solid;
-  border-color: var(--licorice);
+#menu .quadro {
+  background-color: var(--ghost-white);
+  /* border: 0.0625rem solid black; */
+  width: 88rem;
+  margin-block-start: 1rem;
   margin-inline: 1rem;
+}
+
+/* ----------------------------------------- */
+
+#inicio {
+  background-color: var(--ghost-white);
+}
+
+#inicio .conteiner {
+  background-color: var(--licorice);
+  /* border: 0.0625rem solid black; */
+  border-top: none;
+  max-width: 90rem;
+  height: 90vh;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "quadro-um quadro-um"
+    "quadro-dois quadro-tres";
+  gap: 1rem;
+}
+
+#inicio .quadro-um {
+  /* border: 0.0625rem solid black; */
+  background-color: var(--ghost-white);
+  margin-block-start: 1rem;
+  margin-inline: 1rem;
+  max-width: 88rem;
+  height: 40vh;
+  grid-area: quadro-um;
   display: flex;
+  justify-content: center;
   align-items: center;
 }
 
-.inicio-conteiner .cartao-esquerdo {
-  border-width: 0.0625rem 0 0.0625rem 0.0625rem;
-  justify-content: flex-end;
+#inicio .quadro-dois, #inicio .quadro-tres {
+  /* border: 0.0625rem solid black; */
+  background-color: var(--ghost-white);
+  margin-block-end: 1rem;
+  max-width: 44rem;
+  height: 44.5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.inicio-conteiner .cartao-direito {
-  border-width: 0.0625rem 0.0625rem 0.0625rem 0;
-  justify-content: flex-start;
+#inicio .quadro-dois {
+  margin-inline-start: 1rem;
+  grid-area: quadro-dois;
 }
 
-section#inicio h1 span {
-  color: var(--ghost-white);
-  text-shadow: 0.0625rem 0.0625rem var(--licorice);
+#inicio .quadro-tres {
+  margin-inline-end: 1rem;
+  grid-area: quadro-tres;
 }
