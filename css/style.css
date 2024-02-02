@@ -15,7 +15,7 @@
 }
 
 #menu .conteiner {
-  background-color: var(--licorice);
+  background-color: var(--glaucous);
   /* border: 0.0625rem solid black; */
   max-width: 90rem;
   height: 10vh;
@@ -28,7 +28,7 @@
   background-color: var(--ghost-white);
   /* border: 0.0625rem solid black; */
   width: 88rem;
-  margin-block-start: 1rem;
+  margin-block-start: 2vh;
   margin-inline: 1rem;
 }
 
@@ -39,9 +39,8 @@
 }
 
 #inicio .conteiner {
-  background-color: var(--licorice);
+  background-color: var(--glaucous);
   /* border: 0.0625rem solid black; */
-  border-top: none;
   max-width: 90rem;
   height: 90vh;
   margin: 0 auto;
@@ -56,10 +55,9 @@
 #inicio .quadro-um {
   /* border: 0.0625rem solid black; */
   background-color: var(--ghost-white);
-  margin-block-start: 1rem;
   margin-inline: 1rem;
   max-width: 88rem;
-  height: 40vh;
+  height: 38vh;
   grid-area: quadro-um;
   display: flex;
   justify-content: center;
@@ -69,9 +67,9 @@
 #inicio .quadro-dois, #inicio .quadro-tres {
   /* border: 0.0625rem solid black; */
   background-color: var(--ghost-white);
-  margin-block-end: 1rem;
+  margin-block-end: 2vh;
   max-width: 44rem;
-  height: 44.5vh;
+  height: 48vh;
   display: flex;
   justify-content: center;
   align-items: center;
