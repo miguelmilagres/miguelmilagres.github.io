@@ -1,0 +1,46 @@
+@import 'cores.css';
+
+.conteiner {
+    /* dimensoes */
+    min-width: 1024px;
+    max-width: 1440px;
+    
+    /* posicionamento */
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 4rem;
+    padding-block: 1rem;
+
+    /* personalizacao */
+    background-color: var(--fire-engine-red);
+}
+
+.marca-link {
+    text-decoration: none;
+    color: var(--baby-powder);
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.menu {
+    /* personalizacao */
+    list-style: none;
+
+    /* posicionamento */
+    display: flex;
+    gap: 2rem;
+}
+
+.menu-link {
+    /* personalizacao */
+    text-decoration: none;
+    color: var(--baby-powder);
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.menu-link:hover {
+    color: var(--school-bus-yellow);
+}
