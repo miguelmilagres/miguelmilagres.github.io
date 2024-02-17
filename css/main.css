@@ -1,0 +1,6 @@
+@import './cores.css';
+
+main {
+    flex: 1;
+    background-color: white;
+}
