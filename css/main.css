@@ -1,6 +1,29 @@
 @import './cores.css';
 
-main {
-    flex: 1;
-    background-color: white;
+#secaoUm {
+    background-color: #fbfdfa;
 }
+
+#secaoUm .caixaUm {
+    width: 50%;
+    padding: 2rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+#secaoUm .caixaUm .titulo {
+    font-family: var(--paytone-one);
+}
+
+#secaoUm .caixaUm .subtitulo {
+    font-family: var(--cousine);
+}
+
+#secaoUm .caiaUm .paragrafo {
+    font-family: var(--mukta-vaani);
+}
+
+
+
