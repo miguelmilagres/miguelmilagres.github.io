@@ -1,29 +1,74 @@
-@import './cores.css';
+@import "./cores.css";
 
-#secaoUm {
-    background-color: #fbfdfa;
+/* ----- inicio ----- */
+
+#inicio {
+  background-color: #fafcf9;
 }
 
-#secaoUm .caixaUm {
-    width: 50%;
-    padding: 2rem;
+#inicio .caixaUm {
+  padding: 2rem;
+  padding-block-start: 1rem;
 
+  display: flex;
+  flex-direction: column;
+}
+
+#inicio .caixaUm .titulo {
+  font-family: var(--titulo);
+  font-weight: 600;
+  font-size: xx-large;
+}
+
+#inicio .caixaUm .subtitulo {
+  font-family: var(--subtitulo);
+  font-weight: 400;
+  font-style: italic;
+  font-size: x-large;
+}
+
+#inicio .caixaUm .paragrafo {
+  font-family: var(--paragrafo);
+}
+
+/* ----- habilidades ----- */
+
+#habilidades .caixaDois {
+  padding: 2rem;
+
+  display: flex;
+  flex-direction: column;
+}
+
+#habilidades .caixaDois span {
+    border-block-start: 0.5rem solid var(--lapis-lazuli);
+}
+
+#habilidades .caixaDois .titulo {
+    font-family: var(--titulo);
+    font-weight: 600;
+    font-size: xx-large;
+}
+
+#habilidades .caixaDois .paragrafo {
+  font-family: var(--paragrafo);
+}
+
+#habilidades .caixaDois .caixaHabilidades {
+    margin-block-start: 4rem;
     display: flex;
-    flex-direction: column;
-    gap: 1rem;
-}
 
-#secaoUm .caixaUm .titulo {
-    font-family: var(--paytone-one);
-}
+    justify-content: center;
+    flex-wrap: wrap;
 
-#secaoUm .caixaUm .subtitulo {
-    font-family: var(--cousine);
-}
-
-#secaoUm .caiaUm .paragrafo {
-    font-family: var(--mukta-vaani);
+    /* grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 4;
+    grid-template-areas: "a1 a2" "a3 a4" "a5 a6" "a7 a8"; */
+    gap: 4rem;
 }
 
 
+#habilidades .caixaDois .caixaHabilidades .fa-brands {
+    color: var(--raisin-black);
+}
 
