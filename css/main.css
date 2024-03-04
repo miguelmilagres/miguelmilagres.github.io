@@ -1,4 +1,5 @@
 @import "./cores.css";
+@import './fonte.css';
 
 /* ----- inicio ----- */
 
@@ -61,14 +62,50 @@
     justify-content: center;
     flex-wrap: wrap;
 
-    /* grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: 4;
-    grid-template-areas: "a1 a2" "a3 a4" "a5 a6" "a7 a8"; */
     gap: 4rem;
 }
-
 
 #habilidades .caixaDois .caixaHabilidades .fa-brands {
     color: var(--raisin-black);
 }
 
+/* ----- projetos ----- */
+
+#projetos .caixaTres {
+  padding: 2rem;
+
+  display: flex;
+  flex-direction: column;
+}
+
+#projetos .caixaTres span {
+    border-block-start: 0.5rem solid var(--lapis-lazuli);
+}
+
+#projetos .caixaTres .titulo {
+    font-family: var(--titulo);
+    font-weight: 600;
+    font-size: xx-large;
+
+    margin-block-end: 2rem;
+}
+
+#projetos .video-container, .legenda-video {
+  width: 240px;
+  margin: 0 auto; 
+
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-block-end: none;
+}
+
+#projetos .legenda-video {
+  background-color: #f7f9f6;
+
+  border-block-start: none;
+  border-block-end: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+#projetos video {
+  width: 100%;
+  height: auto;
+}

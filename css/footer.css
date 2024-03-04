@@ -1,0 +1,15 @@
+@import "./cores.css";
+@import './fonte.css';
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+footer span {
+    color: var(--lapis-lazuli);
+    font-family: var(--paragrafo);
+}
+
